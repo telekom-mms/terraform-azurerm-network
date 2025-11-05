@@ -49,7 +49,7 @@ resource "azurerm_subnet" "subnet" {
   resource_group_name                           = local.subnet[each.key].resource_group_name
   virtual_network_name                          = local.subnet[each.key].virtual_network_name
   address_prefixes                              = local.subnet[each.key].address_prefixes
-  private_endpoint_network_policies             = local.subnet[each.key].private_endpoint_network_policies        
+  private_endpoint_network_policies             = local.subnet[each.key].private_endpoint_network_policies
   private_link_service_network_policies_enabled = local.subnet[each.key].private_link_service_network_policies_enabled
   service_endpoints                             = local.subnet[each.key].service_endpoints
   service_endpoint_policy_ids                   = local.subnet[each.key].service_endpoint_policy_ids
@@ -98,10 +98,10 @@ resource "azurerm_network_interface" "network_interface" {
   location            = local.network_interface[each.key].location
   resource_group_name = local.network_interface[each.key].resource_group_name
 
-  edge_zone                       = local.network_interface[each.key].edge_zone
-  ip_forwarding_enabled           = local.network_interface[each.key].ip_forwarding_enabled
-  accelerated_networking_enabled  = local.network_interface[each.key].accelerated_networking_enabled
-  internal_dns_name_label         = local.network_interface[each.key].internal_dns_name_label
+  edge_zone                      = local.network_interface[each.key].edge_zone
+  ip_forwarding_enabled          = local.network_interface[each.key].ip_forwarding_enabled
+  accelerated_networking_enabled = local.network_interface[each.key].accelerated_networking_enabled
+  internal_dns_name_label        = local.network_interface[each.key].internal_dns_name_label
 
   dynamic "ip_configuration" {
     for_each = local.network_interface[each.key].ip_configuration
