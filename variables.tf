@@ -77,7 +77,7 @@ locals {
     }
     subnet = {
       name                                          = ""
-      private_endpoint_network_policies_enabled     = null
+      private_endpoint_network_policies             = null
       private_link_service_network_policies_enabled = null
       service_endpoints                             = null
       service_endpoint_policy_ids                   = null
@@ -107,12 +107,11 @@ locals {
       tags                    = {}
     }
     network_interface = {
-      name                          = ""
-      dns_servers                   = null
-      edge_zone                     = null
-      enable_ip_forwarding          = null
-      enable_accelerated_networking = null
-      internal_dns_name_label       = null
+      name                            = ""
+      edge_zone                       = null
+      ip_forwarding_enabled           = null
+      acceleratedd_networking_enabled = null
+      internal_dns_name_label         = null
       ip_configuration = {
         name                                               = ""
         gateway_load_balancer_frontend_ip_configuration_id = null
