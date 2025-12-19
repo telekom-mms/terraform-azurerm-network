@@ -1,12 +1,16 @@
 # Changelog
 
-## [3.0.4](https://github.com/telekom-mms/terraform-azurerm-network/tree/3.0.4) (2025-08-28)
+## [4.0.0](https://github.com/telekom-mms/terraform-azurerm-network/tree/4.0.0) (2025-12-19)
 
-[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-network/compare/3.0.3...3.0.4)
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-network/compare/3.0.3...4.0.0)
 
 **Fixed bugs:**
 
 - fix terrascan workflow run [\#37](https://github.com/telekom-mms/terraform-azurerm-network/pull/37) ([michaelamattes](https://github.com/michaelamattes))
+
+**Merged pull requests:**
+
+- Upgrade azurerm provider to v4.x \(Networking\) [\#38](https://github.com/telekom-mms/terraform-azurerm-network/pull/38) ([leotsys](https://github.com/leotsys))
 
 ## [3.0.3](https://github.com/telekom-mms/terraform-azurerm-network/tree/3.0.3) (2024-08-28)
 
