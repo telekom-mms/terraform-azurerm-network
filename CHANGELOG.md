@@ -1,12 +1,20 @@
 # Changelog
 
+## [4.0.1](https://github.com/telekom-mms/terraform-azurerm-network/tree/4.0.1) (2026-03-30)
+
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-network/compare/4.0.0...4.0.1)
+
+**Merged pull requests:**
+
+- chore\(config\): standardize renovate.json and update repository topics [\#39](https://github.com/telekom-mms/terraform-azurerm-network/pull/39) ([mikaEz](https://github.com/mikaEz))
+
 ## [4.0.0](https://github.com/telekom-mms/terraform-azurerm-network/tree/4.0.0) (2025-12-19)
 
 [Full Changelog](https://github.com/telekom-mms/terraform-azurerm-network/compare/3.0.3...4.0.0)
 
 **Fixed bugs:**
 
-- fix terrascan workflow run [\#37](https://github.com/telekom-mms/terraform-azurerm-network/pull/37) ([michaelamattes](https://github.com/michaelamattes))
+- fix terrascan workflow run [\#37](https://github.com/telekom-mms/terraform-azurerm-network/pull/37) ([mikaEz](https://github.com/mikaEz))
 
 **Merged pull requests:**
 
@@ -18,11 +26,11 @@
 
 **Implemented enhancements:**
 
-- Pin version of azurerm to compatible state   [\#36](https://github.com/telekom-mms/terraform-azurerm-network/pull/36) ([michaelamattes](https://github.com/michaelamattes))
+- Pin version of azurerm to compatible state   [\#36](https://github.com/telekom-mms/terraform-azurerm-network/pull/36) ([mikaEz](https://github.com/mikaEz))
 
 **Merged pull requests:**
 
-- run terrascan in test setting directory [\#31](https://github.com/telekom-mms/terraform-azurerm-network/pull/31) ([michaelamattes](https://github.com/michaelamattes))
+- run terrascan in test setting directory [\#31](https://github.com/telekom-mms/terraform-azurerm-network/pull/31) ([mikaEz](https://github.com/mikaEz))
 
 ## [3.0.2](https://github.com/telekom-mms/terraform-azurerm-network/tree/3.0.2) (2023-10-13)
 
@@ -43,7 +51,7 @@
 **Merged pull requests:**
 
 - add options to network interface main [\#29](https://github.com/telekom-mms/terraform-azurerm-network/pull/29) ([hektor1966](https://github.com/hektor1966))
-- fix code style failures [\#28](https://github.com/telekom-mms/terraform-azurerm-network/pull/28) ([michaelamattes](https://github.com/michaelamattes))
+- fix code style failures [\#28](https://github.com/telekom-mms/terraform-azurerm-network/pull/28) ([mikaEz](https://github.com/mikaEz))
 
 ## [3.0.1](https://github.com/telekom-mms/terraform-azurerm-network/tree/3.0.1) (2023-05-17)
 
@@ -55,7 +63,7 @@
 
 **Merged pull requests:**
 
-- add codespell workflow [\#25](https://github.com/telekom-mms/terraform-azurerm-network/pull/25) ([michaelamattes](https://github.com/michaelamattes))
+- add codespell workflow [\#25](https://github.com/telekom-mms/terraform-azurerm-network/pull/25) ([mikaEz](https://github.com/mikaEz))
 
 ## [3.0.0](https://github.com/telekom-mms/terraform-azurerm-network/tree/3.0.0) (2023-05-10)
 
@@ -63,8 +71,8 @@
 
 **Merged pull requests:**
 
-- Refactoring [\#23](https://github.com/telekom-mms/terraform-azurerm-network/pull/23) ([michaelamattes](https://github.com/michaelamattes))
-- add Renovate Dependency Dashboard and automatic merge on patch updates [\#21](https://github.com/telekom-mms/terraform-azurerm-network/pull/21) ([michaelamattes](https://github.com/michaelamattes))
+- Refactoring [\#23](https://github.com/telekom-mms/terraform-azurerm-network/pull/23) ([mikaEz](https://github.com/mikaEz))
+- add Renovate Dependency Dashboard and automatic merge on patch updates [\#21](https://github.com/telekom-mms/terraform-azurerm-network/pull/21) ([mikaEz](https://github.com/mikaEz))
 - Update actions/checkout action to v3.1.0 [\#20](https://github.com/telekom-mms/terraform-azurerm-network/pull/20) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [2.0.2](https://github.com/telekom-mms/terraform-azurerm-network/tree/2.0.2) (2022-08-22)
@@ -73,7 +81,7 @@
 
 **Fixed bugs:**
 
-- correct private\_endpoint setup [\#19](https://github.com/telekom-mms/terraform-azurerm-network/pull/19) ([michaelamattes](https://github.com/michaelamattes))
+- correct private\_endpoint setup [\#19](https://github.com/telekom-mms/terraform-azurerm-network/pull/19) ([mikaEz](https://github.com/mikaEz))
 
 ## [2.0.1](https://github.com/telekom-mms/terraform-azurerm-network/tree/2.0.1) (2022-08-11)
 
@@ -89,7 +97,7 @@
 
 **Implemented enhancements:**
 
-- update azurerm provider [\#17](https://github.com/telekom-mms/terraform-azurerm-network/pull/17) ([michaelamattes](https://github.com/michaelamattes))
+- update azurerm provider [\#17](https://github.com/telekom-mms/terraform-azurerm-network/pull/17) ([mikaEz](https://github.com/mikaEz))
 
 ## [1.0.3](https://github.com/telekom-mms/terraform-azurerm-network/tree/1.0.3) (2022-05-09)
 
@@ -102,7 +110,7 @@
 - Update actions/checkout action [\#13](https://github.com/telekom-mms/terraform-azurerm-network/pull/13) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github-actions-x/commit action to v2.9 [\#12](https://github.com/telekom-mms/terraform-azurerm-network/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/checkout action to v2.4.2 [\#9](https://github.com/telekom-mms/terraform-azurerm-network/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
-- add renovate config [\#8](https://github.com/telekom-mms/terraform-azurerm-network/pull/8) ([michaelamattes](https://github.com/michaelamattes))
+- add renovate config [\#8](https://github.com/telekom-mms/terraform-azurerm-network/pull/8) ([mikaEz](https://github.com/mikaEz))
 
 ## [1.0.2](https://github.com/telekom-mms/terraform-azurerm-network/tree/1.0.2) (2022-03-21)
 
@@ -110,7 +118,7 @@
 
 **Merged pull requests:**
 
-- add network\_interface\_security\_group\_association [\#7](https://github.com/telekom-mms/terraform-azurerm-network/pull/7) ([michaelamattes](https://github.com/michaelamattes))
+- add network\_interface\_security\_group\_association [\#7](https://github.com/telekom-mms/terraform-azurerm-network/pull/7) ([mikaEz](https://github.com/mikaEz))
 
 ## [1.0.1](https://github.com/telekom-mms/terraform-azurerm-network/tree/1.0.1) (2022-03-18)
 
@@ -123,7 +131,7 @@
 
 **Merged pull requests:**
 
-- add azurerm\_local\_network\_gateway,azurerm\_virtual\_network\_gateway\_con… [\#4](https://github.com/telekom-mms/terraform-azurerm-network/pull/4) ([michaelamattes](https://github.com/michaelamattes))
+- add azurerm\_local\_network\_gateway,azurerm\_virtual\_network\_gateway\_con… [\#4](https://github.com/telekom-mms/terraform-azurerm-network/pull/4) ([mikaEz](https://github.com/mikaEz))
 
 ## [1.0.0](https://github.com/telekom-mms/terraform-azurerm-network/tree/1.0.0) (2022-02-17)
 
@@ -131,8 +139,8 @@
 
 **Merged pull requests:**
 
-- change variable behaviour [\#2](https://github.com/telekom-mms/terraform-azurerm-network/pull/2) ([michaelamattes](https://github.com/michaelamattes))
-- Setup [\#1](https://github.com/telekom-mms/terraform-azurerm-network/pull/1) ([michaelamattes](https://github.com/michaelamattes))
+- change variable behaviour [\#2](https://github.com/telekom-mms/terraform-azurerm-network/pull/2) ([mikaEz](https://github.com/mikaEz))
+- Setup [\#1](https://github.com/telekom-mms/terraform-azurerm-network/pull/1) ([mikaEz](https://github.com/mikaEz))
 
 ## [0.0.1](https://github.com/telekom-mms/terraform-azurerm-network/tree/0.0.1) (2021-12-17)
 
