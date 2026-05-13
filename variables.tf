@@ -107,11 +107,11 @@ locals {
       tags                    = {}
     }
     network_interface = {
-      name                            = ""
-      edge_zone                       = null
-      ip_forwarding_enabled           = null
-      acceleratedd_networking_enabled = null
-      internal_dns_name_label         = null
+      name                           = ""
+      edge_zone                      = null
+      ip_forwarding_enabled          = null
+      accelerated_networking_enabled = null
+      internal_dns_name_label        = null
       ip_configuration = {
         name                                               = ""
         gateway_load_balancer_frontend_ip_configuration_id = null
