@@ -1,8 +1,12 @@
 # Changelog
 
-## [4.0.1](https://github.com/telekom-mms/terraform-azurerm-network/tree/4.0.1) (2026-03-30)
+## [4.0.1](https://github.com/telekom-mms/terraform-azurerm-network/tree/4.0.1) (2026-05-13)
 
 [Full Changelog](https://github.com/telekom-mms/terraform-azurerm-network/compare/4.0.0...4.0.1)
+
+**Fixed bugs:**
+
+- fix: Typo in default variables [\#41](https://github.com/telekom-mms/terraform-azurerm-network/pull/41) ([habr-mms](https://github.com/habr-mms))
 
 **Merged pull requests:**
 
